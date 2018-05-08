@@ -1,0 +1,2118 @@
+# Ten plik viminfo został wygenerowany przez Vima 8.0.
+# Możesz go ostrożnie edytować!
+
+# Viminfo version
+|1,4
+
+# Wartość 'encoding' w czasie zapisu tego pliku
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Ostatni Wyszukiwany wzorzec:
+~Msle0~/\<pobieram\>
+
+# Ostatni Podstawienie Wyszukiwany wzorzec:
+~MSle0&pln = 
+
+# Ostatni podstawiany ciąg:
+$print("
+
+# Wiersz poleceń Historia (od najnowszych po najstarsze):
+:q
+|2,0,1525781394,,"q"
+:w
+|2,0,1525781060,,"w"
+:W
+|2,0,1525780933,,"W"
+:wq
+|2,0,1525766226,,"wq"
+:tabe ~/.vimrc
+|2,0,1525762407,,"tabe ~/.vimrc"
+:q!
+|2,0,1525761353,,"q!"
+:!touch 2.c
+|2,0,1524839617,,"!touch 2.c"
+:!touche 2.c
+|2,0,1524839604,,"!touche 2.c"
+:Q
+|2,0,1524147722,,"Q"
+:!touch 6.c
+|2,0,1523948355,,"!touch 6.c"
+:!touch 11.c
+|2,0,1523947783,,"!touch 11.c"
+:!touch 4.c
+|2,0,1523947719,,"!touch 4.c"
+:!touch 3.c
+|2,0,1523947396,,"!touch 3.c"
+:'<,'>q
+|2,0,1523945648,,"'<,'>q"
+:!touch zadania
+|2,0,1523343752,,"!touch zadania"
+:!touch zad3.c
+|2,0,1523342637,,"!touch zad3.c"
+:!touch zad2.c
+|2,0,1523341214,,"!touch zad2.c"
+:!touch zad1.c
+|2,0,1523340852,,"!touch zad1.c"
+:!touch zad1
+|2,0,1523340816,,"!touch zad1"
+:a
+|2,0,1522246377,,"a"
+:w 3.c
+|2,0,1522132280,,"w 3.c"
+:!vim 1do5.py
+|2,0,1521233725,,"!vim 1do5.py"
+:!touch 1do5.py
+|2,0,1521233707,,"!touch 1do5.py"
+:%s/pln = /print("/g
+|2,0,1521233386,,"%s/pln = /print(\"/g"
+:bn
+|2,0,1521231050,,"bn"
+:bp
+|2,0,1521231045,,"bp"
+:pb
+|2,0,1521231041,,"pb"
+:!python %
+|2,0,1521064657,,"!python %"
+:Q!
+|2,0,1521048603,,"Q!"
+:.q
+|2,0,1520427717,,".q"
+
+# Szukany ciąg Historia (od najnowszych po najstarsze):
+? \<pobieram\>
+|2,1,1525780858,,"\\<pobieram\\>"
+?/*  pobieram do tablicy całą wpisaną przez użytkownika linię
+|2,1,1525780858,47,"*  pobieram do tablicy całą wpisaną przez użytkownika linię"
+? \<rozmiar\>
+|2,1,1524845113,,"\\<rozmiar\\>"
+? pln = 
+|2,1,1521233386,,"pln = "
+
+# Wyrażenie Historia (od najnowszych po najstarsze):
+
+# Wiersz wprowadzeń Historia (od najnowszych po najstarsze):
+
+# Debug Line Historia (od najnowszych po najstarsze):
+
+# Rejestry:
+"0	CHAR	0
+	void fill(char t[], int rozmiar, int MIN, int MAX){
+	    int i;
+	    for(i = 0; i < rozmiar; i++){
+	        t[i] = (char)losowa(MIN, MAX);
+	    }
+	}
+	
+	int main(){
+	    srand(time(NULL));
+	
+	    int N = 100;
+	    char tab[N];    //char ponieważ do pliku zapiszemy znaki, nie liczby
+	    
+	    fill(tab, N, 1, 5);
+	
+	    FILE *plik;
+	    plik = fopen("2.txt", "w ");
+	
+	    fprintf(plik, "%s", tab);
+	
+	}
+|3,0,0,0,21,0,1524842469,"void fill(char t[], int rozmiar, int MIN, int MAX){","    int i;","    for(i = 0; i < rozmiar; i++){","        t[i] = (char)losowa(MIN, MAX);","    }","}","","int main(){","    srand(time(NULL));","","    int N = 100;","    char tab[N];    //char ponieważ do pliku zapiszemy znaki, nie liczby","    ","    fill(tab, N, 1, 5);","","    FILE *plik;","    plik = fopen(\"2.txt\", \"w \");","","    fprintf(plik, \"%s\", tab);","","}"
+""1	LINE	0
+	        puts(buffer);
+|3,1,1,1,1,0,1525781057,"        puts(buffer);"
+"2	LINE	0
+	
+|3,0,2,1,1,0,1525779392,""
+"3	LINE	0
+	
+|3,0,3,1,1,0,1525779390,""
+"4	LINE	0
+	    //scanf("&c",a); // tu probowalam cos ogarnac z tym podawaniem
+|3,0,4,1,1,0,1525779377,"    //scanf(\"&c\",a); // tu probowalam cos ogarnac z tym podawaniem"
+"5	LINE	0
+	
+|3,0,5,1,1,0,1525779247,""
+"6	LINE	0
+	    fp= fopen( a, "r");  // i nie za bardzo wiem jak to tu teraz podac zeby dzialalo ( jak wpisze konkretny adres to wszystko jest pieknie xD)
+|3,0,6,1,1,0,1525779245,"    fp= fopen( a, \"r\");  // i nie za bardzo wiem jak to tu teraz podac zeby dzialalo ( jak wpisze konkretny adres to wszystko jest pieknie xD)"
+"7	LINE	0
+	    fgets(a, 99, stdin); 
+|3,0,7,1,1,0,1525779133,"    fgets(a, 99, stdin); "
+"8	LINE	0
+	    FILE *fp;
+|3,0,8,1,1,0,1525779128,"    FILE *fp;"
+"9	CHAR	0
+	for(i = 0; i < 100; i++){
+	        a[i] = 'NULL';
+	    }
+|3,0,9,0,3,0,1525778943,"for(i = 0; i < 100; i++){","        a[i] = 'NULL';","    }"
+"-	CHAR	0
+	 
+|3,0,36,0,1,0,1525779440," "
+
+# Zakładki w plikach:
+'0  16  5  ~/Pobrane/NERD_tree_1
+|4,48,16,5,1525781394,"~/Pobrane/NERD_tree_1"
+'1  14  6  ~/Pobrane/NERD_tree_1
+|4,49,14,6,1525780948,"~/Pobrane/NERD_tree_1"
+'2  15  6  ~/Pobrane/NERD_tree_1
+|4,50,15,6,1525780948,"~/Pobrane/NERD_tree_1"
+'3  13  6  ~/Dokumenty/C/NERD_tree_1
+|4,51,13,6,1525766227,"~/Dokumenty/C/NERD_tree_1"
+'4  13  6  ~/Dokumenty/C/NERD_tree_1
+|4,52,13,6,1525766227,"~/Dokumenty/C/NERD_tree_1"
+'5  13  6  ~/Dokumenty/C/NERD_tree_1
+|4,53,13,6,1525766227,"~/Dokumenty/C/NERD_tree_1"
+'6  13  6  ~/Dokumenty/C/NERD_tree_1
+|4,54,13,6,1525766227,"~/Dokumenty/C/NERD_tree_1"
+'7  31  0  ~/.vimrc
+|4,55,31,0,1525763067,"~/.vimrc"
+'8  31  0  ~/.vimrc
+|4,56,31,0,1525763067,"~/.vimrc"
+'9  31  0  ~/.vimrc
+|4,57,31,0,1525763067,"~/.vimrc"
+
+# Lista odniesień (począwszy od najnowszych):
+-'  16  5  ~/Pobrane/NERD_tree_1
+|4,39,16,5,1525781394,"~/Pobrane/NERD_tree_1"
+-'  19  2  ~/Pobrane/NERD_tree_1
+|4,39,19,2,1525781049,"~/Pobrane/NERD_tree_1"
+-'  1  0  ~/Pobrane/NERD_tree_1
+|4,39,1,0,1525781049,"~/Pobrane/NERD_tree_1"
+-'  1  0  ~/Pobrane/main.c
+|4,39,1,0,1525781049,"~/Pobrane/main.c"
+-'  14  6  ~/Pobrane/NERD_tree_1
+|4,39,14,6,1525780948,"~/Pobrane/NERD_tree_1"
+-'  15  6  ~/Pobrane/NERD_tree_1
+|4,39,15,6,1525780948,"~/Pobrane/NERD_tree_1"
+-'  17  2  ~/Pobrane/NERD_tree_1
+|4,39,17,2,1525775578,"~/Pobrane/NERD_tree_1"
+-'  18  2  ~/Pobrane/NERD_tree_1
+|4,39,18,2,1525775578,"~/Pobrane/NERD_tree_1"
+-'  1  0  ~/Pobrane/NERD_tree_1
+|4,39,1,0,1525775578,"~/Pobrane/NERD_tree_1"
+-'  1  0  ~/Pobrane/main.c
+|4,39,1,0,1525775578,"~/Pobrane/main.c"
+-'  13  6  ~/Dokumenty/C/NERD_tree_1
+|4,39,13,6,1525766227,"~/Dokumenty/C/NERD_tree_1"
+-'  13  6  ~/Dokumenty/C/NERD_tree_1
+|4,39,13,6,1525766227,"~/Dokumenty/C/NERD_tree_1"
+-'  13  6  ~/Dokumenty/C/NERD_tree_1
+|4,39,13,6,1525766227,"~/Dokumenty/C/NERD_tree_1"
+-'  15  2  ~/Dokumenty/C/NERD_tree_1
+|4,39,15,2,1525763160,"~/Dokumenty/C/NERD_tree_1"
+-'  1  0  ~/Dokumenty/C/NERD_tree_1
+|4,39,1,0,1525763160,"~/Dokumenty/C/NERD_tree_1"
+-'  1  0  ~/Dokumenty/C/enigma.c
+|4,39,1,0,1525763160,"~/Dokumenty/C/enigma.c"
+-'  15  2  ~/Dokumenty/C/NERD_tree_1
+|4,39,15,2,1525763160,"~/Dokumenty/C/NERD_tree_1"
+-'  1  0  ~/Dokumenty/C/NERD_tree_1
+|4,39,1,0,1525763160,"~/Dokumenty/C/NERD_tree_1"
+-'  1  0  ~/Dokumenty/C/enigma.c
+|4,39,1,0,1525763160,"~/Dokumenty/C/enigma.c"
+-'  15  2  ~/Dokumenty/C/NERD_tree_1
+|4,39,15,2,1525763160,"~/Dokumenty/C/NERD_tree_1"
+-'  1  0  ~/Dokumenty/C/NERD_tree_1
+|4,39,1,0,1525763160,"~/Dokumenty/C/NERD_tree_1"
+-'  1  0  ~/Dokumenty/C/enigma.c
+|4,39,1,0,1525763160,"~/Dokumenty/C/enigma.c"
+-'  31  0  ~/.vimrc
+|4,39,31,0,1525763067,"~/.vimrc"
+-'  31  0  ~/.vimrc
+|4,39,31,0,1525763067,"~/.vimrc"
+-'  31  0  ~/.vimrc
+|4,39,31,0,1525763067,"~/.vimrc"
+-'  31  0  ~/.vimrc
+|4,39,31,0,1525763067,"~/.vimrc"
+-'  22  0  ~/Dokumenty/C/dokumenty.c
+|4,39,22,0,1525762407,"~/Dokumenty/C/dokumenty.c"
+-'  22  0  ~/Dokumenty/C/dokumenty.c
+|4,39,22,0,1525762407,"~/Dokumenty/C/dokumenty.c"
+-'  22  0  ~/Dokumenty/C/dokumenty.c
+|4,39,22,0,1525762407,"~/Dokumenty/C/dokumenty.c"
+-'  22  0  ~/Dokumenty/C/dokumenty.c
+|4,39,22,0,1525762407,"~/Dokumenty/C/dokumenty.c"
+-'  1  0  ~/Dokumenty/C/kolos/zad1.c
+|4,39,1,0,1525761311,"~/Dokumenty/C/kolos/zad1.c"
+-'  1  0  ~/Dokumenty/C/kolos/zad1.c
+|4,39,1,0,1525761311,"~/Dokumenty/C/kolos/zad1.c"
+-'  1  0  ~/Dokumenty/C/kolos/zad1.c
+|4,39,1,0,1525761311,"~/Dokumenty/C/kolos/zad1.c"
+-'  1  0  ~/Dokumenty/C/kolos/zad1.c
+|4,39,1,0,1525761311,"~/Dokumenty/C/kolos/zad1.c"
+-'  1  0  ~/Dokumenty/C/kolos/zad2.c
+|4,39,1,0,1525761304,"~/Dokumenty/C/kolos/zad2.c"
+-'  1  0  ~/Dokumenty/C/kolos/zad2.c
+|4,39,1,0,1525761304,"~/Dokumenty/C/kolos/zad2.c"
+-'  1  0  ~/Dokumenty/C/kolos/zad2.c
+|4,39,1,0,1525761304,"~/Dokumenty/C/kolos/zad2.c"
+-'  1  0  ~/Dokumenty/C/kolos/zad2.c
+|4,39,1,0,1525761304,"~/Dokumenty/C/kolos/zad2.c"
+-'  1  0  ~/Dokumenty/C/kolos/zad3.c
+|4,39,1,0,1525761284,"~/Dokumenty/C/kolos/zad3.c"
+-'  1  0  ~/Dokumenty/C/kolos/zad3.c
+|4,39,1,0,1525761284,"~/Dokumenty/C/kolos/zad3.c"
+-'  1  0  ~/Dokumenty/C/kolos/zad3.c
+|4,39,1,0,1525761284,"~/Dokumenty/C/kolos/zad3.c"
+-'  1  0  ~/Dokumenty/C/kolos/zad3.c
+|4,39,1,0,1525761284,"~/Dokumenty/C/kolos/zad3.c"
+-'  13  6  ~/Dokumenty/C/lab6/NERD_tree_1
+|4,39,13,6,1524852974,"~/Dokumenty/C/lab6/NERD_tree_1"
+-'  13  6  ~/Dokumenty/C/lab6/NERD_tree_1
+|4,39,13,6,1524852974,"~/Dokumenty/C/lab6/NERD_tree_1"
+-'  13  6  ~/Dokumenty/C/lab6/NERD_tree_1
+|4,39,13,6,1524852974,"~/Dokumenty/C/lab6/NERD_tree_1"
+-'  13  6  ~/Dokumenty/C/lab6/NERD_tree_1
+|4,39,13,6,1524852974,"~/Dokumenty/C/lab6/NERD_tree_1"
+-'  13  6  ~/Dokumenty/C/lab6/NERD_tree_1
+|4,39,13,6,1524852974,"~/Dokumenty/C/lab6/NERD_tree_1"
+-'  13  6  ~/Dokumenty/C/lab6/NERD_tree_1
+|4,39,13,6,1524852974,"~/Dokumenty/C/lab6/NERD_tree_1"
+-'  18  2  ~/Dokumenty/C/lab6/NERD_tree_1
+|4,39,18,2,1524843464,"~/Dokumenty/C/lab6/NERD_tree_1"
+-'  1  7  ~/Dokumenty/C/lab6/NERD_tree_1
+|4,39,1,7,1524843464,"~/Dokumenty/C/lab6/NERD_tree_1"
+-'  18  2  ~/Dokumenty/C/lab6/NERD_tree_1
+|4,39,18,2,1524843464,"~/Dokumenty/C/lab6/NERD_tree_1"
+-'  1  7  ~/Dokumenty/C/lab6/NERD_tree_1
+|4,39,1,7,1524843464,"~/Dokumenty/C/lab6/NERD_tree_1"
+-'  18  2  ~/Dokumenty/C/lab6/NERD_tree_1
+|4,39,18,2,1524843464,"~/Dokumenty/C/lab6/NERD_tree_1"
+-'  1  7  ~/Dokumenty/C/lab6/NERD_tree_1
+|4,39,1,7,1524843464,"~/Dokumenty/C/lab6/NERD_tree_1"
+-'  18  2  ~/Dokumenty/C/lab6/NERD_tree_1
+|4,39,18,2,1524843464,"~/Dokumenty/C/lab6/NERD_tree_1"
+-'  1  7  ~/Dokumenty/C/lab6/NERD_tree_1
+|4,39,1,7,1524843464,"~/Dokumenty/C/lab6/NERD_tree_1"
+-'  18  2  ~/Dokumenty/C/lab6/NERD_tree_1
+|4,39,18,2,1524843464,"~/Dokumenty/C/lab6/NERD_tree_1"
+-'  1  7  ~/Dokumenty/C/lab6/NERD_tree_1
+|4,39,1,7,1524843464,"~/Dokumenty/C/lab6/NERD_tree_1"
+-'  18  2  ~/Dokumenty/C/lab6/NERD_tree_1
+|4,39,18,2,1524843464,"~/Dokumenty/C/lab6/NERD_tree_1"
+-'  1  7  ~/Dokumenty/C/lab6/NERD_tree_1
+|4,39,1,7,1524843464,"~/Dokumenty/C/lab6/NERD_tree_1"
+-'  1  0  ~/Dokumenty/C/lab6/1.c
+|4,39,1,0,1524839039,"~/Dokumenty/C/lab6/1.c"
+-'  1  0  ~/Dokumenty/C/lab6/1.c
+|4,39,1,0,1524839039,"~/Dokumenty/C/lab6/1.c"
+-'  1  0  ~/Dokumenty/C/lab6/1.c
+|4,39,1,0,1524839039,"~/Dokumenty/C/lab6/1.c"
+-'  1  0  ~/Dokumenty/C/lab6/1.c
+|4,39,1,0,1524839039,"~/Dokumenty/C/lab6/1.c"
+-'  1  0  ~/Dokumenty/C/lab6/1.c
+|4,39,1,0,1524839039,"~/Dokumenty/C/lab6/1.c"
+-'  1  0  ~/Dokumenty/C/lab6/1.c
+|4,39,1,0,1524839039,"~/Dokumenty/C/lab6/1.c"
+-'  14  5  ~/Dokumenty/C/NERD_tree_1
+|4,39,14,5,1524762912,"~/Dokumenty/C/NERD_tree_1"
+-'  14  5  ~/Dokumenty/C/NERD_tree_1
+|4,39,14,5,1524762912,"~/Dokumenty/C/NERD_tree_1"
+-'  1  5  ~/Dokumenty/C/NERD_tree_1
+|4,39,1,5,1524762912,"~/Dokumenty/C/NERD_tree_1"
+-'  14  5  ~/Dokumenty/C/NERD_tree_1
+|4,39,14,5,1524762912,"~/Dokumenty/C/NERD_tree_1"
+-'  14  5  ~/Dokumenty/C/NERD_tree_1
+|4,39,14,5,1524762912,"~/Dokumenty/C/NERD_tree_1"
+-'  1  0  ~/Dokumenty/C/snake.c
+|4,39,1,0,1524758986,"~/Dokumenty/C/snake.c"
+-'  1  0  ~/Dokumenty/C/snake.c
+|4,39,1,0,1524758986,"~/Dokumenty/C/snake.c"
+-'  1  0  ~/Dokumenty/C/snake.c
+|4,39,1,0,1524758986,"~/Dokumenty/C/snake.c"
+-'  1  0  ~/Dokumenty/C/snake.c
+|4,39,1,0,1524758986,"~/Dokumenty/C/snake.c"
+-'  1  0  ~/Dokumenty/C/snake.c
+|4,39,1,0,1524758986,"~/Dokumenty/C/snake.c"
+-'  1  0  ~/Dokumenty/C/snake.c
+|4,39,1,0,1524758986,"~/Dokumenty/C/snake.c"
+-'  1  0  ~/Dokumenty/C/NERD_tree_1
+|4,39,1,0,1524758986,"~/Dokumenty/C/NERD_tree_1"
+-'  1  0  ~/Dokumenty/C/snake.c
+|4,39,1,0,1524758986,"~/Dokumenty/C/snake.c"
+-'  1  0  ~/Dokumenty/C/NERD_tree_1
+|4,39,1,0,1524758986,"~/Dokumenty/C/NERD_tree_1"
+-'  1  0  ~/Dokumenty/C/snake.c
+|4,39,1,0,1524758986,"~/Dokumenty/C/snake.c"
+-'  25  0  ~/Dokumenty/C/lab6/1.c
+|4,39,25,0,1524552167,"~/Dokumenty/C/lab6/1.c"
+-'  25  0  ~/Dokumenty/C/lab6/1.c
+|4,39,25,0,1524552167,"~/Dokumenty/C/lab6/1.c"
+-'  25  0  ~/Dokumenty/C/lab6/1.c
+|4,39,25,0,1524552167,"~/Dokumenty/C/lab6/1.c"
+-'  25  0  ~/Dokumenty/C/lab6/1.c
+|4,39,25,0,1524552167,"~/Dokumenty/C/lab6/1.c"
+-'  25  0  ~/Dokumenty/C/lab6/1.c
+|4,39,25,0,1524552167,"~/Dokumenty/C/lab6/1.c"
+-'  25  0  ~/Dokumenty/C/lab6/1.c
+|4,39,25,0,1524552167,"~/Dokumenty/C/lab6/1.c"
+-'  25  0  ~/Dokumenty/C/lab6/1.c
+|4,39,25,0,1524552167,"~/Dokumenty/C/lab6/1.c"
+-'  25  0  ~/Dokumenty/C/lab6/1.c
+|4,39,25,0,1524552167,"~/Dokumenty/C/lab6/1.c"
+-'  6  0  ~/Dokumenty/C/lab4/3.c
+|4,39,6,0,1524551045,"~/Dokumenty/C/lab4/3.c"
+-'  6  0  ~/Dokumenty/C/lab4/3.c
+|4,39,6,0,1524551045,"~/Dokumenty/C/lab4/3.c"
+-'  6  0  ~/Dokumenty/C/lab4/3.c
+|4,39,6,0,1524551045,"~/Dokumenty/C/lab4/3.c"
+-'  6  0  ~/Dokumenty/C/lab4/3.c
+|4,39,6,0,1524551045,"~/Dokumenty/C/lab4/3.c"
+-'  6  0  ~/Dokumenty/C/lab4/3.c
+|4,39,6,0,1524551045,"~/Dokumenty/C/lab4/3.c"
+-'  6  0  ~/Dokumenty/C/lab4/3.c
+|4,39,6,0,1524551045,"~/Dokumenty/C/lab4/3.c"
+-'  6  0  ~/Dokumenty/C/lab4/3.c
+|4,39,6,0,1524551045,"~/Dokumenty/C/lab4/3.c"
+-'  6  0  ~/Dokumenty/C/lab4/3.c
+|4,39,6,0,1524551045,"~/Dokumenty/C/lab4/3.c"
+-'  6  0  ~/Dokumenty/C/lab4/3.c
+|4,39,6,0,1524551045,"~/Dokumenty/C/lab4/3.c"
+-'  6  0  ~/Dokumenty/C/lab4/3.c
+|4,39,6,0,1524551045,"~/Dokumenty/C/lab4/3.c"
+-'  1  0  ~/Dokumenty/C/lab4/2.c
+|4,39,1,0,1524551036,"~/Dokumenty/C/lab4/2.c"
+
+# Historia zakładek w plikach (od najnowszych po najstarsze):
+
+> ~/Pobrane/NERD_tree_1
+	*	1525781394	0
+	"	16	5
+	.	1	0
+	+	1	0
+
+> ~/Pobrane/main.c
+	*	1525781393	0
+	"	32	11
+	^	32	39
+	.	32	0
+	+	12	10
+	+	36	0
+	+	36	12
+	+	10	0
+	+	35	0
+	+	36	15
+	+	12	47
+	+	35	5
+	+	10	5
+	+	12	16
+	+	31	0
+	+	30	22
+	+	36	0
+	+	6	4
+	+	8	0
+	+	7	0
+	+	8	9
+	+	10	0
+	+	30	24
+	+	30	0
+	+	30	23
+	+	10	0
+	+	29	0
+	+	30	0
+	+	29	13
+	+	29	14
+	+	12	14
+	+	30	0
+	+	18	0
+	+	29	20
+	+	12	14
+	+	18	15
+	+	29	32
+	+	36	6
+	+	34	3
+	+	32	7
+	+	33	7
+	+	34	3
+	+	35	0
+	+	18	0
+	+	10	4
+	+	32	20
+	+	31	17
+	+	28	0
+	+	32	20
+	+	28	34
+	+	3	18
+	+	4	0
+	+	18	20
+	+	28	35
+	+	27	6
+	+	18	0
+	+	13	0
+	+	19	0
+	+	21	56
+	+	20	85
+	+	24	8
+	+	28	36
+	+	14	0
+	+	26	32
+	+	32	0
+
+> ~/Dokumenty/C/NERD_tree_1
+	*	1525766226	0
+	"	13	6
+	.	1	0
+	+	1	0
+
+> ~/Dokumenty/C/enigma.c
+	*	1525763930	0
+	"	16	9
+	^	16	9
+	.	16	8
+	+	28	0
+	+	16	8
+
+> ~/.vimrc
+	*	1525763066	0
+	"	31	0
+	^	14	36
+	.	14	35
+	+	6	0
+	+	7	7
+	+	10	1
+	+	8	12
+	+	8	6
+	+	38	25
+	+	8	16
+	+	11	0
+	+	8	6
+	+	2	27
+	+	14	35
+
+> ~/Dokumenty/C/dokumenty.c
+	*	1525763064	0
+	"	30	8
+	^	35	0
+	.	35	0
+	+	2	19
+	+	45	0
+	+	45	39
+	+	43	0
+	+	44	0
+	+	32	0
+	+	33	0
+	+	45	0
+	+	36	0
+	+	37	0
+	+	31	0
+	+	44	40
+	+	6	0
+	+	5	3
+	+	24	0
+	+	10	0
+	+	5	12
+	+	9	12
+	+	14	0
+	+	12	18
+	+	16	19
+	+	22	22
+	+	12	16
+	+	22	0
+	+	23	0
+	+	22	0
+	+	18	7
+	+	16	28
+	+	18	7
+	+	17	9
+	+	19	43
+	+	17	18
+	+	17	0
+	+	35	0
+
+> ~/Dokumenty/C/kolos/zad3.c
+	*	1525761351	0
+	"	9	0
+	^	9	1
+	.	9	0
+	+	1	0
+	+	14	40
+	+	14	16
+	+	43	8
+	+	8	16
+	+	44	0
+	+	43	0
+	+	8	13
+	+	43	0
+	+	11	10
+	+	10	34
+	+	11	23
+	+	12	0
+	+	9	0
+
+> ~/Dokumenty/C/kolos/zad1.c
+	*	1525761304	0
+	"	1	0
+	.	26	0
+	+	1	0
+	+	8	12
+	+	15	4
+	+	9	9
+	+	22	0
+	+	14	4
+	+	26	23
+	+	8	12
+	+	13	17
+	+	12	30
+	+	8	9
+	+	13	12
+	+	25	0
+	+	9	10
+	+	26	17
+	+	10	13
+	+	22	14
+	+	24	5
+	+	23	25
+	+	17	8
+	+	19	14
+	+	26	0
+
+> ~/Dokumenty/C/kolos/zad2.c
+	*	1525761300	0
+	"	1	0
+	^	26	13
+	.	31	0
+	+	1	0
+	+	5	0
+	+	4	0
+	+	21	22
+	+	13	4
+	+	14	9
+	+	15	9
+	+	14	20
+	+	17	65
+	+	17	63
+	+	18	16
+	+	47	0
+	+	20	0
+	+	29	34
+	+	24	12
+	+	14	9
+	+	15	9
+	+	25	22
+	+	27	0
+	+	16	21
+	+	31	0
+	+	39	8
+	+	30	28
+	+	34	0
+	+	40	21
+	+	17	18
+	+	18	19
+	+	41	8
+	+	38	0
+	+	46	27
+	+	33	20
+	+	31	44
+	+	21	20
+	+	3	0
+	+	22	5
+	+	27	1
+	+	14	20
+	+	15	19
+	+	24	12
+	+	26	12
+	+	22	3
+	+	27	0
+	+	14	13
+	+	15	13
+	+	31	0
+	+	21	20
+	+	31	0
+
+> ~/Dokumenty/C/lab6/NERD_tree_1
+	*	1524852973	0
+	"	13	6
+	.	1	0
+	+	1	0
+
+> ~/Dokumenty/C/lab6/2.c
+	*	1524847962	0
+	"	26	0
+	^	26	0
+	.	26	0
+	+	1	0
+	+	39	24
+	+	23	47
+	+	27	29
+	+	32	0
+	+	46	0
+	+	39	20
+	+	46	0
+	+	11	58
+	+	17	39
+	+	17	5
+	+	11	1
+	+	17	30
+	+	17	29
+	+	11	2
+	+	12	56
+	+	13	49
+	+	14	91
+	+	17	1
+	+	17	29
+	+	17	2
+	+	17	29
+	+	22	2
+	+	21	3
+	+	16	1
+	+	35	8
+	+	37	12
+	+	39	14
+	+	37	8
+	+	27	21
+	+	23	13
+	+	37	72
+	+	44	28
+	+	42	28
+	+	11	0
+	+	12	0
+	+	46	0
+	+	42	28
+	+	27	43
+	+	45	16
+	+	27	44
+	+	29	0
+	+	24	14
+	+	27	12
+	+	29	35
+	+	3	15
+	+	29	0
+	+	25	30
+	+	29	23
+	+	25	19
+	+	37	14
+	+	23	15
+	+	37	9
+	+	29	0
+	+	25	30
+	+	3	15
+	+	27	0
+	+	37	0
+	+	25	37
+	+	37	16
+	+	28	19
+	+	37	14
+	+	36	10
+	+	25	29
+	+	27	36
+	+	3	0
+	+	26	0
+
+> ~/Dokumenty/C/lab6/2.txt
+	*	1524847764	0
+	"	101	0
+
+> ~/Dokumenty/C/lab6/1.c
+	*	1524847453	0
+	"	14	0
+	^	36	22
+	.	36	21
+	+	1	0
+	+	1	12
+	+	1	0
+	+	1	2
+	+	1	17
+	+	1	0
+	+	1	7
+	+	1	1
+	+	1	0
+	+	1	11
+	+	1	13
+	+	1	30
+	+	1	4
+	+	1	0
+	+	1	25
+	+	1	32
+	+	1	17
+	+	1	0
+	+	1	15
+	+	1	12
+	+	1	0
+	+	1	6
+	+	1	23
+	+	1	7
+	+	1	0
+	+	1	9
+	+	1	4
+	+	1	0
+	+	1	18
+	+	1	12
+	+	1	0
+	+	1	36
+	+	1	20
+	+	1	14
+	+	1	21
+	+	1	0
+	+	1	4
+	+	1	8
+	+	1	0
+	+	1	29
+	+	1	0
+	+	1	28
+	+	1	0
+	+	1	8
+	+	1	12
+	+	1	14
+	+	1	0
+	+	1	20
+	+	2	0
+	+	1	0
+	+	36	21
+
+> ~/Dokumenty/C/snake.c
+	*	1524762909	0
+	"	51	12
+	^	51	13
+	.	5	17
+	+	74	72
+	+	74	4
+	+	74	0
+	+	44	4
+	+	43	0
+	+	75	0
+	+	58	24
+	+	54	24
+	+	58	28
+	+	48	29
+	+	52	31
+	+	56	21
+	+	52	15
+	+	56	27
+	+	5	17
+
+> ~/Dokumenty/C/lab4/3.c
+	*	1524551042	0
+	"	6	0
+	^	15	16
+	.	15	15
+	+	1	0
+	+	44	0
+	+	22	1
+	+	21	20
+	+	17	29
+	+	20	0
+	+	19	24
+	+	21	15
+	+	22	0
+	+	14	2
+	+	15	22
+	+	19	19
+	+	21	11
+	+	31	0
+	+	27	37
+	+	29	46
+	+	30	0
+	+	31	3
+	+	30	30
+	+	35	0
+	+	34	19
+	+	36	15
+	+	29	20
+	+	32	0
+	+	42	0
+	+	38	36
+	+	26	0
+	+	43	34
+	+	44	0
+	+	43	29
+	+	38	32
+	+	13	63
+	+	25	0
+	+	17	26
+	+	18	13
+	+	38	62
+	+	15	15
+
+> ~/Dokumenty/C/lab4/2.c
+	*	1524551035	0
+	"	1	0
+	^	34	20
+	.	34	19
+	+	1	0
+	+	37	0
+	+	14	21
+	+	18	0
+	+	16	15
+	+	21	18
+	+	16	19
+	+	21	38
+	+	21	17
+	+	37	0
+	+	20	27
+	+	21	15
+	+	33	27
+	+	24	26
+	+	25	30
+	+	18	30
+	+	24	26
+	+	33	0
+	+	37	0
+	+	33	0
+	+	25	30
+	+	32	0
+	+	26	0
+	+	17	35
+	+	26	34
+	+	28	0
+	+	19	0
+	+	29	20
+	+	28	45
+	+	29	20
+	+	28	45
+	+	31	0
+	+	21	16
+	+	22	16
+	+	26	59
+	+	27	59
+	+	28	64
+	+	27	65
+	+	28	89
+	+	29	47
+	+	28	47
+	+	27	47
+	+	26	47
+	+	29	94
+	+	22	16
+	+	21	32
+	+	22	86
+	+	36	35
+	+	32	35
+	+	33	20
+	+	17	9
+	+	36	42
+	+	35	22
+	+	36	64
+	+	35	0
+	+	33	0
+	+	32	0
+	+	17	20
+	+	36	43
+	+	34	19
+
+> ~/Dokumenty/C/lab4/1.c
+	*	1524551033	0
+	"	1	0
+	^	4	17
+	.	17	24
+	+	1	0
+	+	5	0
+	+	11	0
+	+	6	13
+	+	10	10
+	+	53	0
+	+	18	12
+	+	17	60
+	+	30	27
+	+	18	9
+	+	38	4
+	+	24	31
+	+	17	19
+	+	18	19
+	+	53	21
+	+	53	19
+	+	19	3
+	+	53	0
+	+	19	0
+	+	21	0
+	+	17	23
+	+	18	23
+	+	19	53
+	+	20	54
+	+	24	6
+	+	24	57
+	+	28	0
+	+	36	0
+	+	21	18
+	+	37	23
+	+	21	21
+	+	22	23
+	+	31	0
+	+	39	16
+	+	53	0
+	+	41	0
+	+	15	0
+	+	42	17
+	+	41	31
+	+	42	61
+	+	39	68
+	+	41	55
+	+	42	54
+	+	41	31
+	+	42	65
+	+	44	10
+	+	42	0
+	+	41	0
+	+	44	26
+	+	43	26
+	+	45	19
+	+	47	25
+	+	47	21
+	+	47	18
+	+	47	20
+	+	49	0
+	+	53	0
+	+	53	16
+	+	49	20
+	+	53	0
+	+	54	0
+	+	53	0
+	+	54	0
+	+	50	0
+	+	51	0
+	+	52	0
+	+	50	13
+	+	51	28
+	+	52	30
+	+	17	7
+	+	52	20
+	+	47	19
+	+	48	28
+	+	15	0
+	+	18	0
+	+	16	0
+	+	14	0
+	+	4	16
+	+	17	24
+
+> ~/Dokumenty/C/lab2/temperatury.c
+	*	1524550907	0
+	"	18	0
+	^	12	0
+	.	43	12
+	+	20	0
+	+	3	17
+	+	44	0
+	+	20	3
+	+	3	5
+	+	27	23
+	+	26	24
+	+	41	20
+	+	30	22
+	+	38	21
+	+	33	0
+	+	41	33
+	+	38	47
+	+	42	4
+	+	41	18
+	+	22	5
+	+	21	31
+	+	25	6
+	+	44	8
+	+	44	4
+	+	44	5
+	+	44	2
+	+	44	5
+	+	44	19
+	+	37	26
+	+	44	3
+	+	44	2
+	+	44	4
+	+	36	8
+	+	45	0
+	+	4	0
+	+	18	0
+	+	11	3
+	+	13	1
+	+	14	1
+	+	15	1
+	+	16	1
+	+	17	1
+	+	38	8
+	+	36	9
+	+	11	3
+	+	13	0
+	+	14	4
+	+	15	4
+	+	16	4
+	+	17	0
+	+	5	78
+	+	40	27
+	+	39	0
+	+	45	0
+	+	38	9
+	+	36	10
+	+	38	7
+	+	15	21
+	+	12	0
+	+	43	12
+
+> ~/Dokumenty/C/lab5/1.c
+	*	1524550745	0
+	"	1	0
+	^	28	0
+	.	28	0
+	+	1	1
+	+	12	0
+	+	1	0
+	+	47	0
+	+	46	7
+	+	13	23
+	+	40	11
+	+	41	0
+	+	22	0
+	+	46	7
+	+	22	0
+	+	22	1
+	+	14	9
+	+	23	21
+	+	38	1
+	+	24	0
+	+	26	0
+	+	36	0
+	+	35	16
+	+	37	17
+	+	38	0
+	+	11	2
+	+	8	40
+	+	8	35
+	+	10	80
+	+	46	12
+	+	46	0
+	+	46	4
+	+	45	60
+	+	28	0
+
+> ~/Dokumenty/Python/Studia/lab1/NERD_tree_1
+	*	1524147723	0
+	"	14	7
+	.	1	0
+	+	1	0
+
+> ~/Dokumenty/Python/Studia/lab1/1.py
+	*	1524145984	0
+	"	1	5
+	^	1	14
+	.	1	13
+	+	1	13
+
+> ~/Dokumenty/C/lab5/6.c
+	*	1523949995	0
+	"	18	0
+	^	28	1
+	.	28	0
+	+	1	0
+	+	1	15
+	+	1	0
+	+	1	3
+	+	1	10
+	+	1	7
+	+	1	14
+	+	1	0
+	+	2	0
+	+	28	0
+
+> ~/Dokumenty/C/lab5/NERD_tree_1
+	*	1523949570	0
+	"	10	0
+	.	1	0
+	+	1	0
+
+> ~/Dokumenty/C/lab5/11.c
+	*	1523948373	0
+	"	1	0
+	^	12	25
+	.	12	24
+	+	1	0
+	+	8	0
+	+	7	18
+	+	13	0
+	+	12	24
+
+> ~/Dokumenty/C/lab5/2.c
+	*	1523948369	0
+	"	1	0
+	^	27	17
+	.	28	0
+	+	1	0
+	+	6	0
+	+	29	0
+	+	29	3
+	+	30	0
+	+	29	8
+	+	26	16
+	+	27	15
+	+	29	45
+	+	27	15
+	+	28	0
+
+> ~/Dokumenty/C/lab5/3.c
+	*	1523948368	0
+	"	1	0
+	^	19	28
+	.	19	27
+	+	1	0
+	+	5	0
+	+	7	0
+	+	6	17
+	+	15	0
+	+	16	0
+	+	15	0
+	+	14	17
+	+	13	0
+	+	10	0
+	+	8	10
+	+	9	0
+	+	20	0
+	+	19	27
+
+> ~/Dokumenty/C/lab5/4.c
+	*	1523948366	0
+	"	1	0
+	^	9	25
+	.	9	24
+	+	1	0
+	+	10	0
+	+	9	24
+
+> ~/Dokumenty/C/lab1/silnia.c
+	*	1523947423	0
+	"	2	0
+	^	15	0
+
+> ~/Dokumenty/C/lab1/doskonala.c
+	*	1523946252	0
+	"	5	4
+
+> ~/Dokumenty/C/kolos/gr2.c
+	*	1523945856	0
+	"	6	0
+	^	42	5
+	.	42	0
+	+	1	0
+	+	44	0
+	+	5	0
+	+	25	21
+	+	26	4
+	+	43	4
+	+	28	10
+	+	27	7
+	+	28	16
+	+	35	29
+	+	36	5
+	+	36	0
+	+	33	30
+	+	7	4
+	+	23	0
+	+	22	12
+	+	40	0
+	+	38	11
+	+	41	46
+	+	42	0
+
+> ~/Dokumenty/C/kolos/NERD_tree_1
+	*	1523344510	0
+	"	10	0
+	^	8	6
+	.	1	0
+	+	1	0
+
+> ~/Dokumenty/C/lab1/NWD.c
+	*	1523344340	0
+	"	1	0
+
+> ~/Dokumenty/C/kolos/zadania
+	*	1523343961	0
+	"	31	8
+	^	67	0
+	.	81	0
+	+	3	0
+	+	1	12
+	+	27	1
+	+	27	0
+	+	29	11
+	+	30	0
+	+	79	10
+	+	62	11
+	+	79	11
+	+	62	11
+	+	80	0
+	+	81	0
+
+> ~/Dokumenty/C/lab2/waluty.c
+	*	1523342774	0
+	"	17	0
+	^	7	0
+	.	7	0
+	+	38	0
+	+	16	29
+	+	37	22
+	+	12	15
+	+	16	0
+	+	37	25
+	+	16	74
+	+	16	69
+	+	16	88
+	+	35	4
+	+	29	14
+	+	15	0
+	+	29	21
+	+	14	13
+	+	27	0
+	+	29	28
+	+	13	9
+	+	14	9
+	+	23	12
+	+	26	12
+	+	30	43
+	+	31	0
+	+	32	0
+	+	33	0
+	+	31	35
+	+	32	13
+	+	33	13
+	+	32	33
+	+	33	35
+	+	37	22
+	+	16	35
+	+	16	45
+	+	16	60
+	+	16	69
+	+	23	0
+	+	37	13
+	+	30	0
+	+	34	32
+	+	23	12
+	+	29	19
+	+	30	20
+	+	29	19
+	+	30	20
+	+	31	19
+	+	32	19
+	+	33	19
+	+	23	12
+	+	12	7
+	+	16	25
+	+	29	34
+	+	30	34
+	+	31	34
+	+	32	34
+	+	33	34
+	+	12	14
+	+	23	12
+	+	29	14
+	+	30	14
+	+	31	13
+	+	32	14
+	+	33	13
+	+	17	10
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	17	18
+	+	18	19
+	+	19	19
+	+	20	18
+	+	21	17
+	+	6	2
+	+	4	38
+	+	38	0
+	+	4	44
+	+	23	0
+	+	16	31
+	+	5	1
+	+	7	0
+
+> ~/Dokumenty/C/lab2/WTF.c
+	*	1523342772	0
+	"	1	0
+	^	39	23
+	.	39	22
+	+	42	0
+	+	17	3
+	+	5	0
+	+	4	0
+	+	5	22
+	+	6	6
+	+	7	6
+	+	25	20
+	+	18	12
+	+	25	25
+	+	26	20
+	+	22	12
+	+	29	33
+	+	28	14
+	+	24	9
+	+	28	19
+	+	28	34
+	+	29	38
+	+	30	12
+	+	19	19
+	+	40	0
+	+	23	18
+	+	38	26
+	+	40	0
+	+	39	35
+	+	40	9
+	+	41	4
+	+	25	9
+	+	36	36
+	+	38	34
+	+	36	37
+	+	38	13
+	+	23	9
+	+	36	34
+	+	38	12
+	+	33	12
+	+	36	44
+	+	23	21
+	+	39	21
+	+	36	0
+	+	38	20
+	+	23	18
+	+	36	45
+	+	39	22
+
+> ~/Dokumenty/C/lab2/1do5.c
+	*	1523342765	0
+	"	1	0
+	^	42	1
+	.	42	0
+	+	1	5
+	+	1	0
+	+	1	10
+	+	1	36
+	+	1	19
+	+	1	24
+	+	1	5
+	+	1	24
+	+	1	5
+	+	1	13
+	+	1	9
+	+	1	28
+	+	1	36
+	+	1	7
+	+	1	5
+	+	1	32
+	+	1	61
+	+	1	35
+	+	1	15
+	+	1	17
+	+	1	27
+	+	1	18
+	+	1	43
+	+	1	5
+	+	1	7
+	+	1	9
+	+	1	5
+	+	1	9
+	+	1	54
+	+	1	12
+	+	1	5
+	+	1	90
+	+	1	19
+	+	1	37
+	+	1	27
+	+	1	5
+	+	1	26
+	+	1	5
+	+	1	60
+	+	1	5
+	+	1	0
+	+	1	10
+	+	1	0
+	+	1	13
+	+	1	16
+	+	1	21
+	+	1	24
+	+	1	9
+	+	1	21
+	+	1	23
+	+	1	0
+	+	1	13
+	+	42	0
+
+> ~/Dokumenty/C/lab1/r_kwadratowe.c
+	*	1523342762	0
+	"	1	0
+
+> ~/Dokumenty/C/lab3/3.c
+	*	1523341329	0
+	"	1	0
+	^	2	87
+	.	2	86
+	+	40	1
+	+	41	0
+	+	11	32
+	+	23	25
+	+	14	15
+	+	30	18
+	+	23	26
+	+	25	30
+	+	30	25
+	+	31	13
+	+	31	17
+	+	23	19
+	+	25	23
+	+	23	19
+	+	25	23
+	+	11	0
+	+	10	0
+	+	10	3
+	+	10	20
+	+	10	16
+	+	23	12
+	+	25	16
+	+	23	18
+	+	25	22
+	+	18	16
+	+	19	17
+	+	21	15
+	+	22	16
+	+	18	19
+	+	19	19
+	+	21	19
+	+	20	19
+	+	21	19
+	+	22	19
+	+	18	31
+	+	19	31
+	+	20	31
+	+	21	32
+	+	23	0
+	+	11	0
+	+	8	17
+	+	30	24
+	+	14	15
+	+	30	25
+	+	23	11
+	+	30	25
+	+	29	0
+	+	23	18
+	+	25	16
+	+	29	11
+	+	25	16
+	+	23	21
+	+	25	25
+	+	30	0
+	+	29	18
+	+	25	22
+	+	23	18
+	+	29	41
+	+	40	0
+	+	31	0
+	+	25	0
+	+	24	0
+	+	39	4
+	+	38	7
+	+	36	17
+	+	14	12
+	+	34	18
+	+	36	25
+	+	34	12
+	+	14	12
+	+	34	18
+	+	14	12
+	+	36	22
+	+	34	21
+	+	24	18
+	+	14	12
+	+	34	12
+	+	14	64
+	+	7	0
+	+	5	2
+	+	4	84
+	+	15	30
+	+	17	58
+	+	18	44
+	+	19	36
+	+	18	44
+	+	19	44
+	+	20	44
+	+	21	44
+	+	22	44
+	+	28	83
+	+	26	50
+	+	28	26
+	+	27	27
+	+	28	68
+	+	29	0
+	+	33	49
+	+	2	86
+	i	29	11
+
+> ~/Dokumenty/C/lab3/4.c
+	*	1523341319	0
+	"	1	0
+	^	35	51
+	.	35	50
+	+	53	30
+	+	55	28
+	+	52	0
+	+	50	43
+	+	17	64
+	+	10	62
+	+	17	38
+	+	24	69
+	+	27	53
+	+	58	4
+	+	41	0
+	+	50	16
+	+	44	0
+	+	50	0
+	+	50	10
+	+	40	17
+	+	50	17
+	+	40	0
+	+	37	39
+	+	38	38
+	+	39	61
+	+	40	80
+	+	42	14
+	+	50	12
+	+	50	23
+	+	50	0
+	+	34	0
+	+	53	15
+	+	55	41
+	+	56	23
+	+	53	12
+	+	55	12
+	+	56	30
+	+	58	18
+	+	58	0
+	+	58	18
+	+	104	0
+	+	58	3
+	+	51	0
+	+	44	4
+	+	46	20
+	+	40	19
+	+	49	0
+	+	60	0
+	+	59	44
+	+	63	4
+	+	62	31
+	+	66	4
+	+	60	4
+	+	66	4
+	+	104	0
+	+	67	15
+	+	68	29
+	+	67	26
+	+	77	35
+	+	73	4
+	+	77	31
+	+	104	0
+	+	73	8
+	+	77	35
+	+	79	0
+	+	77	30
+	+	76	23
+	+	78	30
+	+	82	16
+	+	87	20
+	+	78	19
+	+	93	38
+	+	96	4
+	+	95	20
+	+	7	13
+	+	77	25
+	+	72	18
+	+	77	29
+	+	85	18
+	+	86	24
+	+	93	21
+	+	97	3
+	+	90	25
+	+	102	0
+	+	99	29
+	+	102	13
+	+	101	71
+	+	103	4
+	+	99	26
+	+	102	10
+	+	99	21
+	+	4	2
+	+	1	46
+	+	3	71
+	+	2	39
+	+	1	69
+	+	32	0
+	+	31	0
+	+	32	18
+	+	8	16
+	+	32	0
+	+	35	21
+	+	36	0
+	+	35	50
+
+> ~/Dokumenty/C/kolos/zad1
+	*	1523340841	0
+	"	10	0
+	.	1	0
+	+	1	0
+
+> ~/Dokumenty/C/lab3/NERD_tree_1
+	*	1522361451	0
+	"	11	6
+	.	1	0
+	+	1	0
+
+> ~/Dokumenty/C/lab4/a.out
+	*	1522358600	0
+	"	1	0
+
+> ~/NERD_tree_1
+	*	1522351812	0
+	"	15	0
+	.	1	0
+	+	1	0
+
+> ~/Dokumenty/C/lab4/NERD_tree_1
+	*	1522351761	0
+	"	7	2
+	.	1	0
+	+	1	0
+
+> ~/Dokumenty/C/lab1/pierwsza.c
+	*	1522244938	0
+	"	1	0
+
+> ~/Dokumenty/C/lab3/1_rekurencyjnie.c
+	*	1522243926	0
+	"	3	67
+	^	3	68
+	.	3	67
+	+	5	0
+	+	10	0
+	+	24	50
+	+	24	0
+	+	15	0
+	+	10	25
+	+	13	40
+	+	12	8
+	+	25	0
+	+	24	0
+	+	18	3
+	+	15	1
+	+	21	7
+	+	20	0
+	+	23	4
+	+	22	30
+	+	10	27
+	+	11	26
+	+	12	8
+	+	14	4
+	+	22	42
+	+	10	25
+	+	11	14
+	+	12	7
+	+	14	3
+	+	4	2
+	+	1	52
+	+	3	67
+
+> ~/Dokumenty/C/lab3/1.c
+	*	1522243796	0
+	"	24	0
+	^	15	24
+	.	20	27
+	+	5	0
+	+	24	0
+	+	10	75
+	+	11	69
+	+	13	0
+	+	17	58
+	+	18	81
+	+	20	64
+	+	12	0
+	+	11	0
+	+	14	63
+	+	22	58
+	+	6	0
+	+	4	2
+	+	1	71
+	+	3	73
+	+	15	22
+	+	18	25
+	+	18	24
+	+	20	12
+	+	22	0
+	+	15	23
+	+	16	19
+	+	20	27
+
+> ~/Dokumenty/C/lab2/podzielne_przez_3.c
+	*	1522235020	0
+	"	1	0
+	^	10	19
+	.	13	0
+	+	6	48
+	+	11	30
+	+	13	12
+	+	13	0
+	+	4	0
+	+	3	10
+	+	11	23
+	+	6	47
+	+	10	19
+	+	11	19
+	+	13	0
+
+> ~/Dokumenty/C/lab2/a.out
+	*	1522137755	0
+	"	1	0
+
+> ~/Dokumenty/C/lab3/2.c
+	*	1522132209	0
+	"	1	0
+
+> ~/Dokumenty/Python/Studia/NERD_tree_1
+	*	1521234198	0
+	"	6	10
+	.	1	0
+	+	1	0
+
+> ~/Dokumenty/Python/Studia/1do5.py
+	*	1521234193	0
+	"	9	10
+	^	9	15
+	.	9	10
+	+	2	13
+	+	3	0
+	+	9	13
+	+	7	19
+	+	9	10
+
+> ~/Dokumenty/Python/Studia/waluty.py
+	*	1521233673	0
+	"	18	17
+	^	18	24
+	.	18	16
+	+	3	29
+	+	10	17
+	+	3	8
+	+	10	20
+	+	10	28
+	+	1	10
+	+	10	19
+	+	10	3
+	+	10	20
+	+	10	15
+	+	10	0
+	+	10	30
+	+	10	0
+	+	5	0
+	+	10	0
+	+	8	9
+	+	10	0
+	+	18	18
+	+	11	43
+	+	18	24
+	+	18	12
+	+	18	0
+	+	3	21
+	+	3	24
+	+	18	14
+	+	8	9
+	+	10	0
+	+	18	0
+	+	22	0
+	+	22	9
+	+	18	0
+	+	16	24
+	+	16	20
+	+	17	16
+	+	15	16
+	+	13	15
+	+	15	17
+	+	17	17
+	+	3	0
+	+	20	15
+	+	22	0
+	+	12	6
+	+	20	16
+	+	21	0
+	+	12	0
+	+	10	13
+	+	10	11
+	+	13	14
+	+	15	16
+	+	17	16
+	+	12	13
+	+	11	1
+	+	10	1
+	+	12	10
+	+	10	0
+	+	12	17
+	+	13	15
+	+	15	15
+	+	17	15
+	+	10	0
+	+	19	8
+	+	16	8
+	+	19	0
+	+	8	34
+	+	13	14
+	+	15	16
+	+	17	16
+	+	10	0
+	+	11	0
+	+	12	0
+	+	10	0
+	+	11	0
+	+	9	0
+	+	14	23
+	+	16	23
+	+	18	23
+	+	22	0
+	+	14	21
+	+	16	10
+	+	18	21
+	+	14	16
+	+	16	15
+	+	18	16
+
+> ~/Dokumenty/Python/Test/NERD_tree_1
+	*	1521066962	0
+	"	13	7
+	^	13	7
+	.	1	0
+	+	1	0
+
+> ~/Dokumenty/Python/Test/main.py
+	*	1521066889	0
+	"	9	0
+	^	2	35
+	.	2	21
+	+	1	0
+	+	1	19
+	+	1	0
+	+	1	19
+	+	1	0
+	+	1	43
+	+	1	0
+	+	1	22
+	+	1	0
+	+	1	22
+	+	1	0
+	+	6	17
+	+	6	27
+	+	2	11
+	+	6	27
+	+	2	33
+	+	6	6
+	+	6	12
+	+	9	0
+	+	6	14
+	+	6	0
+	+	2	34
+	+	4	11
+	+	2	21
+
+> ~/Dokumenty/Python/models/samples/core/get_started/NERD_tree_1
+	*	1521054996	0
+	"	8	11
+	.	1	0
+	+	1	0
+
+> ~/Dokumenty/Python/models/samples/core/get_started/iris_data.py
+	*	1521050422	0
+	"	38	0
+
+> ~/Dokumenty/Python/models/samples/core/get_started/premade_estimator.py
+	*	1521049386	0
+	"	31	0
+
+> ~/Dokumenty/Python/NERD_tree_1
+	*	1521047610	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/Dokumenty/Python/main.py
+	*	1521047607	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	2
+	+	1	0
+
+> ~/Dokumenty/C/lab2/NERD_tree_1
+	*	1520956242	0
+	"	9	8
+	^	7	7
+	.	1	0
+	+	1	0
+
+> ~/Dokumenty/C/lab2/NERD_tree_2
+	*	1520928711	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Dokumenty/Rust/Stuia/lab1/src/NERD_tree_1
+	*	1520429302	0
+	"	5	8
+	.	1	0
+	+	1	0
+
+> ~/Dokumenty/Rust/Stuia/lab1/src/main.rs
+	*	1520429257	0
+	"	8	14
+	^	8	14
+	.	8	13
+	+	5	0
+	+	5	1
+	+	3	13
+	+	13	0
+	+	11	23
+	+	4	19
+	+	3	13
+	+	4	23
+	+	11	25
+	+	2	8
+	+	3	21
+	+	11	4
+	+	3	3
+	+	4	28
+	+	7	27
+	+	10	9
+	+	11	23
+	+	12	4
+	+	8	13
+
+> ~/Dokumenty/Rust/Test/src/NERD_tree_1
+	*	1520427717	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/Dokumenty/Rust/Test/src/main.rs
+	*	1520427570	0
+	"	10	39
+	^	9	41
+	.	10	38
+	+	2	0
+	+	11	0
+	+	10	38
+
+> ~/Dokumenty/Rust/lab1/NERD_tree_1
+	*	1520420715	0
+	"	6	0
+	.	1	0
+	+	1	0
+
+> ~/Dokumenty/Rust/lab1/pierwsza.rs
+	*	1520418527	0
+	"	1	0
+
+> ~/Dokumenty/Rust/lab1/NERD_tree_2
+	*	1520418520	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Dokumenty/Rust/guessing_game/src/main.rs
+	*	1520418498	0
+	"	1	0
+
+> ~/Dokumenty/Rust/lab1/pierwsza.rc
+	*	1520418496	0
+	"	1	10
+	^	1	11
+	.	1	11
+	+	1	2
+	+	1	11
+
+> ~/Dokumenty/C/lab1/NERD_tree_1
+	*	1520370465	0
+	"	6	8
+	.	1	0
+	+	1	0
+
+> ~/Dokumenty/C/silnia.c
+	*	1520370411	0
+	"	1	0
+	^	16	25
+	.	16	14
+	+	17	0
+	+	12	22
+	+	5	16
+	+	13	0
+	+	5	10
+	+	6	7
+	+	16	24
+	+	8	0
+	+	16	14
+
+> ~/Dokumenty/C/r_kwadratowe.c
+	*	1520358206	0
+	"	1	0
+	^	21	55
+	.	21	54
+	+	32	0
+	+	16	0
+	+	9	42
+	+	12	69
+	+	13	21
+	+	12	70
+	+	17	0
+	+	7	12
+	+	17	50
+	+	18	5
+	+	22	23
+	+	27	11
+	+	9	41
+	+	27	32
+	+	7	16
+	+	23	48
+	+	22	9
+	+	27	34
+	+	29	34
+	+	23	36
+	+	29	62
+	+	30	4
+	+	31	0
+	+	21	54
+
+> ~/Dokumenty/C/doskonala.c
+	*	1520357909	0
+	"	1	0
+
+> ~/Dokumenty/C/NWD.c
+	*	1520357906	0
+	"	1	0
+	^	7	38
+	.	7	37
+	+	27	0
+	+	5	12
+	+	11	12
+	+	11	9
+	+	13	8
+	+	11	11
+	+	13	16
+	+	11	13
+	+	15	16
+	+	12	7
+	+	11	0
+	+	26	25
+	+	19	9
+	+	22	0
+	+	21	15
+	+	26	25
+	+	27	0
+	+	1	0
+	+	1	35
+	+	10	40
+	+	18	24
+	+	26	6
+	+	2	0
+	+	6	0
+	+	7	37
+
+> ~/Dokumenty/C/pierwsza.c
+	*	1520357734	0
+	"	1	0
+
+> ~/Dokumenty/C/1do5.c
+	"	1	0
+
+> ~/Dokumenty/Rust/Stuia/lab1/src/main.rc
+	"	1	0
