@@ -2,7 +2,6 @@ autocmd vimenter * NERDTree
 autocmd BufEnter * lcd %:p:h
 execute pathogen#infect()
 filetype plugin indent on
-"-------------------------------------------------------
 
 " Python
 map <F6> :w <CR> :!python3 % <CR>
@@ -13,10 +12,8 @@ map <F6> :w <CR> :!python3 % <CR>
 " C
 map <F5> :w <CR> :!gcc -lm -lncurses %  && ./a.out <CR>
 
-"--------------------------------------------------------
-
 colors deus
-"colorscheme eldar
+
 set so=7
 set wildmenu
 set number
